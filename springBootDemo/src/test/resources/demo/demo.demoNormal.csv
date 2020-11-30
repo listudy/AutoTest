@@ -1,0 +1,2 @@
+caseId,isRun,describe,url,parameter
+TC001,Y,验证正确的订单号和正确的快递公司,http://www.kuaidi100.com,/query?type=tiantian&postid=668806588673

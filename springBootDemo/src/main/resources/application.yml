@@ -1,0 +1,22 @@
+server:
+  prot: 8080
+
+logging:
+  path: logs
+  file: userManager.log
+
+spring:
+  application:
+    nama: userManager
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.7:3306/mydatabase?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+
+mybatis:
+  type-aliases-packge: com.eduoinfo.service
+  mapper-Locations: mapper/mysql.xml
+
+
+
