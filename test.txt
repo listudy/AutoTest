@@ -1,5 +1,0 @@
-
-是master分支的内ssdd
-zhes
-/usr/bin/bash: 11: command not found
-master
